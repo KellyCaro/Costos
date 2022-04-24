@@ -1,0 +1,33 @@
+"""
+-para crear entorno virtual git bash
+python -m venv envvirtual
+-Luego se crea un archivo .gitignore
+para que no se vuelva lento el paquete de archivos
+************************
+Activar entorno virtual
+source nombreentrono/Scripts/activate
+***************
+Crear repositorio
+
+git init
+*******************
+agregar cosas al repositorio
+git add .
+
+**********************
+fijar la version
+git commit -m "01"
+******************
+para ver todos los commit
+git  log --oneline 
+**********************
+git checkout se escribe la identificacion que se subraya en amarillo
+*********************
+git status
+ver las modificaciones realizadas por git add .
+********************
+devolver los cambios
+git restore .
+para mayor eficacia
+git clean -f .
+"""
